@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>People Counter App</title>
+  </head>
+  <body class="flex items-center justify-center">
+    <div
+      class="conatiner mx-auto flex-col mt-20 bg-cyan-500 shadow-lg shadow-cyan-500/50 rounded-xl p-24"
+    >
+      <h1 class="font-light text-4xl font-ui-sans-serif">People entered:</h1>
+      <h2 id="count-el" class="mt-10 px-24 text-xl">0</h2>
+      <button
+        id="increment-btn"
+        onclick="increment()"
+        class="ml-7 mr-2 bg-[#fff] p-1 rounded-xl"
+      >
+        Increment
+      </button>
+      <button
+        id="save-btn"
+        onclick="save()"
+        class="mt-10 bg-[#fff] p-1 rounded-xl"
+      >
+        Save
+      </button>
+
+      <!-- <p id="welcome-el"></p> -->
+      <p id="save-el" class="mt-10 text-2xl italic">Previous entries: </p>
+    </div>
+
+    <script src="./main.js"></script>
+    <!-- <script src="/index.js"></script> -->
+  </body>
+</html>
