@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BlackJackGame</title>
+  </head>
+  <body class="bg-[green] text-white text-xl font-bold">
+    <div class="container flex items-center justify-center flex-col mt-60 gap-5">
+      <h1  class="font-bold text-3xl text-[goldenrod]">Blackjack Game</h1>
+      <p id="message-el" class="italic">Want to play a round? </p>
+      <p id="card-el">Cards:</p>
+      <p id="sum-el">Sum:</p>
+      <button class="bg-[goldenrod] px-6 py-2 text-green text-[green] rounded" onclick="startGame()">START GAME</button>
+      <button class="bg-[goldenrod] px-8 py-2 text-green text-[green] rounded" onclick="newCard()">NEW CARD</button>
+      <p id="player-el"></p>
+    </div>
+
+    <!-- JS -->
+    <script src="./index.js"></script>
+  </body>
+</html>
