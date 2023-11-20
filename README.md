@@ -1,5 +1,5 @@
 # JS-Projects
 
-Clock : https://codepen.io/aamirindi/pen/eYxyemL
+Custom Cursor : https://codepen.io/aamirindi/pen/yLZvdLo
 
 Current Location : https://sunny-khapse-9196e0.netlify.app
