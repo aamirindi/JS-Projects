@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@500;800&family=Poppins&family=Roboto:wght@100&family=Source+Serif+4:opsz,wght@8..60,300&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fbf45d;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+}
+
+#currentDate {
+  font-size: 3rem;
+  margin: 30px;
+}
+
+input {
+  font-size: 20px;
+  padding: 15px;
+  margin: 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 1px 2px rgba(0, 0, 0, 0.2);
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0px);
+}
+
+#displayAge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  padding: 10px 20px;
+  visibility: hidden;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#age {
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 735px) {
+  body {
+    display: block;
+    gap: 0;
+  }
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  #displayAge {
+    width: 100%;
+    margin: 0;
+  }
+}
