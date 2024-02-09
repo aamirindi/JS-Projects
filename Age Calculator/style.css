@@ -89,6 +89,13 @@ button:active {
   font-weight: bold;
 }
 
+.author {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-family: "Cedarville Cursive", cursive;
+}
+
 @media (max-width: 735px) {
   body {
     display: block;
